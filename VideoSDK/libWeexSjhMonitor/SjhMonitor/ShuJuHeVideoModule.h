@@ -1,5 +1,5 @@
 //
-//  SjhMonitorModule.h
+//  ShuJuHeVideoModule.h
 //  libWeexSjhMonitor
 //
 //  Created by XHY on 2018/12/21.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SjhMonitorModule : NSObject <WXModuleProtocol>
+@interface ShuJuHeVideoModule : NSObject <WXModuleProtocol>
 
 @end
 

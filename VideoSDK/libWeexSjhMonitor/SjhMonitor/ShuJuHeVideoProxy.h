@@ -1,5 +1,5 @@
 //
-//  SjhMonitorProxy.h
+//  ShuJuHeVideoProxy.h
 //  libWeexSjhMonitor
 //
 //  Created by 4Ndf on 2018/12/24.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "UniPluginProtocol.h"
-@interface SjhMonitorProxy : NSObject<UniPluginProtocol>
+@interface ShuJuHeVideoProxy : NSObject<UniPluginProtocol>
 
 @end

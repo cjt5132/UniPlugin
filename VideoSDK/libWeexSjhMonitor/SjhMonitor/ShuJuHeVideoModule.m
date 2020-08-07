@@ -1,12 +1,12 @@
 //
-//  SjhMonitorModule.m
+//  ShuJuHeVideoModule.m
 //  libWeexSjhMonitor
 //
 //  Created by XHY on 2018/12/21.
 //  Copyright © 2018 DCloud. All rights reserved.
 //
 
-#import "SjhMonitorModule.h"
+#import "ShuJuHeVideoModule.h"
 #import "WXUtility.h"
 #import "SjhMonitorViewController.h"
 #import "UIViewController+iOS13.h"
@@ -16,18 +16,15 @@
 #import "BasicNavigationController.h"
 
 
-@interface SjhMonitorModule ()
+@interface ShuJuHeVideoModule ()
 
 @end
 
-@implementation SjhMonitorModule
+@implementation ShuJuHeVideoModule
 
 @synthesize weexInstance;
 
 WX_EXPORT_METHOD(@selector(show:callback:))
-//WX_EXPORT_METHOD(@selector(dismiss))
-//WX_EXPORT_METHOD(@selector(myDismissView))
-//WX_EXPORT_METHOD(@selector(showLog:callback:))
 WX_EXPORT_METHOD(@selector(startPlayLive:callback:))
 WX_EXPORT_METHOD(@selector(schoolVideoActivity:))
 

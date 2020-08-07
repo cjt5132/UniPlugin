@@ -1,16 +1,16 @@
 //
-//  SjhMonitorProxy.m
+//  ShuJuHeVideoProxy.m
 //  libWeexSjhMonitor
 //
 //  Created by 4Ndf on 2018/12/24.
 //  Copyright © 2018年 DCloud. All rights reserved.
 //
 
-#import "SjhMonitorProxy.h"
+#import "ShuJuHeVideoProxy.h"
 #import "WXSDKEngine.h"
 #import "ThirdPartHeader.h"
 
-@implementation SjhMonitorProxy
+@implementation ShuJuHeVideoProxy
 -(void)onCreateUniPlugin{
     NSLog(@"TestPlugin 有需要初始化的逻辑可以放这里！");    
 }
